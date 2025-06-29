@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        
+.footer {
+  background-color: #8cc5f4;
+
+  color:  #0050fd;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-left h2 {
+  color:  #0050fd;
+  margin-bottom: 10px;
+}
+
+.footer-middle ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-middle li {
+  margin-bottom: 10px;
+}
+
+.footer-middle a {
+  color:  black;
+  
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-middle a:hover {
+  color:  #0050fd;
+}
+
+.footer-right p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+    </style>
+    <!-- <link rel="stylesheet" href="about.css"> -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo2.png" alt="Logo" width="90">
+            </a>
+            <h1 class="navbar-text text-primary">NewsX</h1>
+            <div class="ms-auto d-flex gap-3">
+                <a href="contact.html" class="btn btn-outline-secondary">Contact Us</a>
+                <a href="subscribe.html" class="btn btn-primary">Subscribe</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <!-- Who Are We Section -->
+        <section class="bg-gradient p-4 text-center rounded mb-5">
+            <h2 class="text-primary">Who are we?</h2>
+            <p class="text-dark mt-3">
+                Welcome to NewsX, your dedicated portal for timely, trustworthy, and engaging news and magazine content.
+                Founded with a passion for delivering high-quality information, NewsX stands at the forefront of the
+                digital media landscape, catering to a diverse audience seeking clarity in a fast-paced world. Our team
+                comprises experienced journalists, passionate editors, and a skilled content team committed to
+                providing stories that matter.
+            </p>
+            <p class="text-dark mt-3">
+                At NewsX, we cover a wide range of topics, including current affairs, entertainment, lifestyle,
+                technology, and in-depth investigative features. We believe in the power of unbiased reporting and
+                insightful analysis to keep our readers informed and empowered.
+            </p>
+        </section>
+
+        <!-- History Section -->
+        <section class="row bg-light p-4 rounded">
+            <div class="col-md-4 text-center">
+                <img src="./images/logo2.png" alt="image" class="img-fluid rounded mb-3" style="max-height: 250px;">
+            </div>
+            <div class="col-md-8">
+                <h2 class="text-primary text-center">Our History</h2>
+                <p class="text-dark mt-3">
+                    Founded in September 2024, NewsX emerged with a vision to transform the way people engage with news
+                    and media. As the digital world becomes increasingly fast-paced and saturated with information,
+                    NewsX was born from a simple idea: to provide clear, accurate, and thoughtfully curated news that
+                    empowers readers.
+                </p>
+                <p class="text-dark mt-3">
+                    NewsX’s rapid growth and positive reception reflect a shared public desire for a trustworthy news
+                    source that values both accuracy and a human touch. As a modern digital platform, NewsX has embraced
+                    multimedia content and interactive features.
+                </p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="row mt-5">
+            <div class="col-md-6">
+                <img src="./images/DALL·E 2024-11-11 22.56.32.webp"Newspaper" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <img src="./images/DALL·E 2024-11-11 22.59.09.webp" alt="Laptop" class="img-fluid rounded">
+            </div>
+        </section>
+    </div> <br> <br>
+
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <h2>NewsX</h2>
+      <p>&copy; 2025 NewsX. All rights reserved.</p>
+    </div>
+
+    <div class="footer-middle">
+      <ul>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/privacy.html">Privacy Policy</a></li>
+        <li><a href="/terms.html">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-right">
+      <p>Follow us</p>
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/facebook.svg" alt="Facebook" width="24" height="24">
+</a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/twitter-x.svg" alt="X (Twitter)" width="24" height="24">
+</a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/instagram.svg" alt="Instagram" width="24" height="24">
+</a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/youtube.svg" alt="YouTube" width="24" height="24">
+</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
